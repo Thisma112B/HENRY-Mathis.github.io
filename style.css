@@ -354,18 +354,23 @@ li a:hover {
     justify-content: flex-start;
     padding: 5px;
   }
-  
-  /**************contenu gallery thechno******************/
-  .JugeGallery {
-    display: inline-block;
-    width: 80%;
-    height: auto;
-    margin: 10px;
-    border: 0px solid #52525279;    
-    background-color:var(--color-form);
-    border-radius: 5px; 
+
+  .icon-footer{
+    font-size:48px;
+    text-decoration:none;
+    background: -moz-linear-gradient(top, #f15c5c 0%, #ebff3b 100%);
+    background: -webkit-linear-gradient(top, #f15c5c 0%, #ebff3b 100%);
+    background: linear-gradient(to bottom, #f15c5c 0%, #ebff3b 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
+  .icon-footer:hover {
+    transition: transform .2s; /* Animation */
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
   /************************** FLEX BOX *****************************/
   * {
     box-sizing: border-box;

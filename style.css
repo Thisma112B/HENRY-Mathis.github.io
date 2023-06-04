@@ -333,6 +333,9 @@ li a:hover {
     width: 26px;
   }
   
+  form {
+    text-align : center;
+  }
   input:checked + .slider {
     background-color: #8f8f8f;
   }
